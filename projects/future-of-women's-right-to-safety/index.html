@@ -50,27 +50,17 @@
 
     <div class="container animated zoomIn fast" >
         
-<h1>Introduction</h1>
-<p>Hugo is an open-source project and lives by the work of its contributors. There are plenty of open issues, and we need your help to make Hugo even more awesome. You don&rsquo;t need to be a Go guru to contribute to the project&rsquo;s development.</p>
-<h2 id="assumptions">Assumptions</h2>
-<p>This contribution guide takes a step-by-step approach in hopes of helping newcomers. Therefore, we only assume the following:</p>
-<ul>
+<h1>KampAIan</h1>
+<p>Find out more about our tech-enabled solution to combat <a href="https://www.who.int/news/item/09-03-2021-devastatingly-pervasive-1-in-3-women-globally-experience-violence">rape culture</a> here:</p>
+        <iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fspeakerdeck.com%2Fplayer%2F7f04c6cc8adf40d7966fdc05b7c37773&display_name=Speaker+Deck&url=https%3A%2F%2Fspeakerdeck.com%2Ftitaofdata%2Fkampaian-pitch-deck&image=https%3A%2F%2Ffiles.speakerdeck.com%2Fpresentations%2F7f04c6cc8adf40d7966fdc05b7c37773%2Fslide_0.jpg%3F17624561&key=internal&type=text%2Fhtml&schema=speakerdeck" width="500" height="299" scrolling="no" title="Speaker Deck embed" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+<h2>KampAIan on the road</h2>
+<p>I took KampAIan beyond <a href="https://www.youtube.com/watch?v=qOILHNNcXSg">Accenture's Innovation Challenge</a> and pitched our anti-rape culture @ Tagcash Pitch Party.</p>
+        <p>You can watch my KampAIan pitch at <a href="https://www.facebook.com/tagcashrewards/photos/basw.AbqP3VMLxu6qGGa8z_D6dBOx08H4KdvRI7wwlju4Xn20HEJiXmS9mS9QRIin66wEci0BLyEMJfER18KnP2agp69YTapu1g_oiG2JUcCYrmA4ml86e4fFMEO23aSC9scg7cfkT0Dz_nC1Kz65eotxpLCcxjohhL2wdW45iogWN40B6Q/2266389216954662/?opaqueCursor=Abqr90fX6kzZ-iATLztc5sna2m4agzqbOlZNMIdMhGlF3hguqjUJ2cPRrN2rbq9AuSc-3yfzDy-7kK0vGmLwXL1HnEFvhxh5IlXCBkH23enJ9DEf5u-rLmDdcX17t-6Mjt7tPx1SoAM4xnY2E3k0MvlG3oNeDTsFZB3-fQUp4SJMg7f4xVrP9jV7CDqVtSw8c3U8LH6AjC3bYIEU_fIHNLLGvx0CQEtMgc9rtVz5NIdnQszw3JemQvdeNq_D5Kd1UHjpumdobPBnyP38wZ1SrsXlI2nXhoQL868_GrgP7G4GnYbxUutG4RCLVtg-aseZa8aQck7T7gSJBHVINwkfXiE7HMRaJ_rBB5F5-0dqHjW37fABLNXYCcKXyW6-MSWPKPkPRZJE-yWSQR4uZQae1-waJ1VvUOfRLI9EP2L2LQlSn74POeu76ztnJFZ-lytck2dqeoFKqsWPB7oZ0qQe01_Rl_q7KwNW1w-gvdB5jwLsCcmWtrCpowr-MDf0XVhIraRrqP9wqPhe7z55YTl1pdWm7b3pUfNcpR169W2uXbejO399VIlSsF2hWrmVcCUk3Tb9lm9n1AQYj4l1rl1WoeIH9M_0a-6OsqDpY9lTIENdXkdrmf6boq60zSeyno3xcJreR5SrHmhfGGh8yQ2ZRF6_ikkiXwPnZR7_uD02JXq3oBhU8127-M1cIKBuBDsIgQO4dP5ZsoipRlwC9vJME-AqjpumqjpmZXv1xP5vRcGkbX8KTmHg59EvSdl4_g9GCEHuk6tR47VzZFBR3LISOu7fzTJ_ges2DEcU0emg9GiWxEvjAqSDhNOEw0hISgZi7Kya89jodD27x-P-_FIi7zC0-2Z19UICT7ea0vhWrWoHyAybHGw-AGotQ4kA_Vg1100">The Shang Grand Tower</a> on this <a href="https://www.facebook.com/1429111130682479/videos/410088746297019">live recording</a>. KampAIan pitch starts 28:20.</p>
+        <ul>
 <li>You are new to Git or open-source projects in general</li>
 <li>You are a fan of Hugo and enthusiastic about contributing to the project</li>
 </ul>
-<h2 id="install-go">Install Go</h2>
-<p>The installation of Go should take only a few minutes. You have more than one option to get Go up and running on your machine.</p>
-<p>If you are having trouble following the installation guides for Go, check out Go Bootcamp, which contains setups for every platform  or reach out to the Hugo community in the Hugo Discussion Forums.</p>
-<h3 id="install-go-from-source">Install Go From Source</h3>
-<p>Download the latest stable version of Go and follow the official Go installation guide.</p>
-<p>Once you&rsquo;re finished installing Go, let&rsquo;s confirm everything is working correctly. Open a terminal&mdash;or command line under Windows&ndash;and type the following:</p>
-<pre><code>go version
-</code></pre><p>You should see something similar to the following written to the console. Note that the version here reflects the most recent version of Go as of the last update for this page:</p>
-<pre><code>go version go1.12 darwin/amd64
-</code></pre><p>Next, make sure that you set up your <code>GOPATH</code> as described in the installation guide.</p>
-<p>You can print the <code>GOPATH</code> with <code>echo $GOPATH</code>. You should see a non-empty string containing a valid path to your Go workspace; for example:</p>
-<pre><code>/Users/&lt;yourusername&gt;/Code/go
-</code></pre>
+
 
   
     </div>
