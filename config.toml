@@ -1,6 +1,6 @@
 baseurl = "https://titaofdata.xyz/"
 title = "titaofdata"
-theme = "hugo-theme-console"
+# theme = "hugo-theme-console"
 languageCode = "en-us"
 
 [params]
